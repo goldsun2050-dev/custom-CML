@@ -4,7 +4,7 @@ const { exec, isProcRunning, sleep } = require('../../../src/utils');
 const { tbLink } = require('./connect');
 
 const CREDENTIALS =
-  '{"refresh_token": "1//03vy0UEEbtGrlCgYIARAAGAMSNwF-L9Irj4R63gOnR8ySz0CqG65smNVt7WWqV-fDGHqtzJr_3Vp71fbPnYgkpeGoDnIAVeP28c8", "token_uri": "https://oauth2.googleapis.com/token", "client_id": "373649185512-26ojik4u7dt0rdtfdmfnhpajqqh579qd.apps.googleusercontent.com", "client_secret": "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", "scopes": ["openid", "https://www.googleapis.com/auth/userinfo.email"], "type": "authorized_user"}';
+  '{"refresh_token": "", "token_uri": "https://oauth2.googleapis.com/token", "client_id": "", "client_secret": "", "scopes": ["openid", "https://www.googleapis.com/auth/userinfo.email"], "type": "authorized_user"}';
 
 const isTbRunning = async () => {
   await sleep(2);
